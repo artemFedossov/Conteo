@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+.posicion {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(214, 214, 214);
+}
+
+main {
+    background-color: black;
+    width: 400px;
+    height: 250px;
+    border-radius: 60px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.estilo {
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(0, 255, 255, 0.568);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px rgba(203, 59, 247, 1);
+}
+
+
+
+
